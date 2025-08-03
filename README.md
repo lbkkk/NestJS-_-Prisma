@@ -1,5 +1,7 @@
 # source từ khóa học YTB: https://www.youtube.com/watch?v=6XBA1c9Akas
 
+# update schema = run npx prisma migrate dev --name ...
+
 # ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # cat ~/.ssh/id_rsa.pub
 

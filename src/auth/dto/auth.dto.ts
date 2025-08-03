@@ -24,3 +24,14 @@ export class RegisterDto {
   @IsNotEmpty()
   status: number;
 }
+
+export class LoginDto {
+  @IsEmail({}, { message: 'Invalid email format.' })
+  @IsNotEmpty()
+  email: string;
+
+  @IsString()
+  @MinLength(6)
+  @IsNotEmpty()
+  password: string;
+}
